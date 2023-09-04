@@ -1,10 +1,5 @@
-# Indicate where to source the terraform module from.
-# The URL used here is a shorthand for
-# "tfr://registry.terraform.io/terraform-aws-modules/vpc/aws?version=3.5.0".
-# Note the extra `/` after the protocol is required for the shorthand
-# notation.
 terraform {
-  source = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc/releases/tag/v5.1.1"
+  source = "git::https://github.com/udemyhoangit86/terraform-aws-vpc.git"
 }
 
 # Indicate the input values to use for the variables of the module.
